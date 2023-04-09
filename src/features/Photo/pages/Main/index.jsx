@@ -21,8 +21,8 @@ function MainPage() {
         console.log(removePhotoId);
         const action = removePhoto(removePhotoId);
         dispatch(action);
-
     }
+    console.log('%cindex.jsx line:25 object', 'color: #007acc;', import.meta.env.VITE_REACT_API_URL);
     return (
         <Fragment>
             <Banner title="Photo Page" backgroundUrl="https://images.unsplash.com/photo-1552083375-1447ce886485?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
